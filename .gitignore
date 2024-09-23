@@ -1,0 +1,31 @@
+# Ignore Vagrant specific files
+.vagrant/
+
+# Ignore log and temp files
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Ignore uploaded files in public folder
+/public/uploads
+
+# Ignore bundler config
+/.bundle
+
+# Ignore system specific files
+*.swp
+*.swo
+.DS_Store
+
+# Ignore node_modules if you're using Webpacker
+/node_modules
+/yarn-error.log
+
+# Ignore SQLite database files
+*.sqlite3
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore sensitive environment files
+.env

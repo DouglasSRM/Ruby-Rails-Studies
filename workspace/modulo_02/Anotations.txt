@@ -15,3 +15,12 @@ a= gets.chomp
 a.inspect = "teste'
 
 coerção: gets.to_i, gets.to_f, gets.to_s
+
+
+Operadores relacionais
+
+>, >=, <, <=, ==, !=
+
+Operadores aritméticos
+
++, -, *, /, **, %

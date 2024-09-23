@@ -1,0 +1,17 @@
+puts (put s, ou seja, coloca string)
+
+puts quebra uma linha, print não quebra
+
+a = gets (gets pega o input do terminal)
+
+a.inspect (verifica exatamente o que tem dentro da variável)
+
+no caso de um input "teste", a variavel.inspect armazenaria "teste\n", incluindo o line break automaticamente
+
+para remover o line break, utilizamos o .chomp, exemplo:
+
+a= gets.chomp
+
+a.inspect = "teste'
+
+coerção: gets.to_i, gets.to_f, gets.to_s

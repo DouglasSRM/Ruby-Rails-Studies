@@ -24,3 +24,13 @@ Operadores relacionais
 Operadores aritméticos
 
 +, -, *, /, **, %
+
+
+# hashes
+
+h = {"a" => "exemplo"} #Terminologia antiga // h = {:a => "exemplo}
+
+h = {a: "exemplo"} #Terminologia nova
+
+:a -> symbol
+

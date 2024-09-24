@@ -4,7 +4,7 @@ sexo = 'F'
 
 sexo == 'M' ? (puts 'Masculino') : (puts 'Feminino')
 
-# casse
+# case
 
 print 'Digite uma idade: '
 idade = gets.chomp.to_i

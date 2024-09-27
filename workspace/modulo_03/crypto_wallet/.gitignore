@@ -1,0 +1,54 @@
+# Ignorar arquivos de sistema
+.DS_Store
+*.swp
+*.swo
+
+# Ignorar configuração do bundler
+/.bundle
+
+# Ignorar logs e arquivos temporários
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Ignorar banco de dados
+/db/*.sqlite3
+/db/*.sqlite3-journal
+# Se você utiliza schema.rb e seeds.rb, considere manter estas linhas:
+# /db/schema.rb
+# /db/seeds.rb
+
+# Ignorar arquivos de configuração sensíveis
+/config/database.yml
+/config/secrets.yml
+/config/credentials.yml.enc
+/config/master.key
+/config/initializers/sorcery.rb
+
+# Ignorar arquivos e diretórios de dependências
+/node_modules
+/yarn-error.log
+/public/assets
+/vendor/bundle
+
+# Ignorar diretórios gerados por testes
+coverage/
+test/tmp
+test/fixtures/*.yml
+test/fixtures/*.csv
+
+# Ignorar arquivos de editor e IDE
+.idea/
+.vscode/
+*.iml
+*.orig
+
+# Outros arquivos a serem ignorados
+.byebug_history
+*.log
+*.tmp
+*.pid
+*.pids
+*.o
+*.so
